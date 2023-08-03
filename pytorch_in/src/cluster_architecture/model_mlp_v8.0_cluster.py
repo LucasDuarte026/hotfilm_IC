@@ -9,6 +9,15 @@ import torch.optim as optim
 from matplotlib import pyplot as plt
 from torch.utils.data import DataLoader, Dataset
 
+
+'''
+Lucas Sales Duarte - Aluno de Graduação em Engenharia de Computação USP - São Carlos
+Código desenvolvido para processamentos de dados gerados pelo sensores anemométricos para conversão de sinais de tensão
+em dados de velocidade do ar.
+
+
+'''
+
 EPOCHS = 6000
 input_size = 1
 output_size = 1
